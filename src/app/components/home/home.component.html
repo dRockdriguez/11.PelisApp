@@ -1,0 +1,7 @@
+<div class="container col-md-10 top30 animated fadeIn">
+  <div class="container">
+    <app-galeria [peliculas]="cartelera | slice:0:6" titulo="Cartelera"></app-galeria>
+    <app-galeria [peliculas]="populares | slice:0:6" titulo="Populares"></app-galeria>
+    <app-galeria [peliculas]="popularesNinos | slice:0:6" titulo="Niños"></app-galeria>
+  </div>
+</div>
